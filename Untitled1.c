@@ -10,8 +10,8 @@ int main() {
     double S = (x-1)/(x+2);
     for (int i = 2; i <= n; i++) {
         int a = 2 * i - 1;
-        y = 1. / a * pow((x-1)/(x+1), a);
-        S = S += y;
+        y = 1. / a * pow((x-1)/(x+1), a); 
+        S += y;
         printf("%d) y = %.4lf  S = %.4lf\n", count, y, S);
         count++;
         }
